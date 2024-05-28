@@ -2,7 +2,7 @@
 
 ## Overview
 
-CleanComm API is an authentication API developed using Python with the FastAPI framework and MySQL as the database. This API provides robust authentication mechanisms and related utilities to ensure secure and efficient user management.
+CleanComm API is an authentication API developed using Python with the FastAPI framework and PostgreSQL as the database. This API provides robust authentication mechanisms and related utilities to ensure secure and efficient user management.
 
 ### Project Structure
 
@@ -92,7 +92,15 @@ CleanComm API is an authentication API developed using Python with the FastAPI f
     ```
 
 4. **Configure Database**:
-    - Update the database configuration in `app/resources/db_utils/db_utils.py`.
+    - Update the database configuration in `app/resources/db_utils/db_utils.py` to match your PostgreSQL settings:
+
+        ```python
+        DB_USER = 'cleancommdev'
+        DB_PASSWORD = 'cleancommdev_pwd'
+        DB_HOST = 'localhost'
+        DB_PORT = '5432'
+        DB_NAME = 'cleancommdevdb'
+        ```
 
 5. **Run the Application**:
 
