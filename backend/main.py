@@ -9,6 +9,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.controllers import auth
 
+from logger import uvicorn_access_logger, uvicorn_errors_logger
+
 app = FastAPI()
 
 app.add_middleware(
