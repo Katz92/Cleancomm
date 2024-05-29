@@ -60,14 +60,14 @@ CleanComm API is an authentication API developed using Python with the FastAPI f
 - **User Authentication**: Secure login and registration using JWT.
 - **User Management**: Create, read, update, and delete user profiles.
 - **Email Services**: Sending emails for verification and notifications.
-- **Database Utilities**: Efficient interaction with the MySQL database.
+- **Database Utilities**: Efficient interaction with the PostgreSQL database.
 
 ### Installation
 
 #### Prerequisites
 
 - Python 3.8+
-- MySQL
+- PostgreSQL
 
 #### Steps
 
