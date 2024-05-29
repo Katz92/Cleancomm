@@ -10,7 +10,7 @@
 
 ## Overview
 
-CleanComm is a web-based platform designed to empower communities to effectively manage waste and promote environmental sustainability. Through interactive features, users can report waste sightings, organize cleanup events, access educational resources, and track progress in their local areas. **Car 
+CleanComm is a web-based platform designed to empower communities to effectively manage waste and promote environmental sustainability. Through interactive features, users can report waste sightings, organize cleanup events, access educational resources, and track progress in their local areas.
 
 ### Learning objectives
 
@@ -25,14 +25,14 @@ CleanComm is a web-based platform designed to empower communities to effectively
 - **User Authentication**: Secure login and registration using JWT.
 - **User Management**: Create, read, update, and delete user profiles.
 - **Email Services**: Sending emails for verification and notifications.
-- **Database Utilities**: Efficient interaction with the MySQL database.
+- **Database Utilities**: Efficient interaction with the PostGresSQL database.
 
 ### Installation
 
 #### Prerequisites
 
 - Python 3.8+
-- MySQL
+- PostGresSQL
 
 #### Steps
 
