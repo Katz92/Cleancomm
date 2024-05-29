@@ -1,0 +1,15 @@
+{
+    "username": "guy@cleancomm.com",
+    "password": "cleancomm",
+    "host": "https://cleancomm.vercel.app/",
+    "lang": "fr",
+    "hashed": "b'$2b$12$dMDN8PpZYSUQmCh.dM3euOi/A8eEV.4mEVJP67SwtEohZCIWs9HTe'",
+    "new_password": "cleancomm",
+    "fake_username": "toto@gmail.com",
+    "fake_password": "toto",
+    "password_already_used": "cleancomm",
+    "reset_password": "cleancomm",
+    "invalid_code": "123456789101112131415167",
+    "expired_code": "64ba9472eb65306a1ba60efd",
+    "expired_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZHVwb250QHJpbnRpby5jb20iLCJpYXQiOjE2ODk5NDkyOTgsImV4cCI6MTY4OTk1MDE5OH0.Jl4qeZsWE-GxvM4XSkH64FqhBPw8RhGm5R56Aho-k0Q"
+}
