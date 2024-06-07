@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
-(C)Copyright 2023, PROJECT
-Guy Ahonakpon GBAGUIDI
+(C)Copyright 2024, PROJECT
+CleanComm Project by Guy Ahonakpon GBAGUIDI
 """
 
 from fastapi import FastAPI
