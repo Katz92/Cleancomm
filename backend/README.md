@@ -121,6 +121,21 @@ After starting the application, the API will be available at `http://127.0.0.1:8
 - **services**: Additional services like email sending.
 - **test**: Contains unit tests for different modules.
 
+You can access the swagger of the API to have an overview of the routes and try them out at "server_url/docs".
+If executed in local it will be <http://127.0.0.1:8000/docs/>. It should look like something like this
+
+![routes_overview](assets/overview.png)
+
+You can also access the alternative docs at the "/redoc" endpoint.
+
+auth includes all the routes related to user authentication. We have:
+
+- **/user/register**: register a new user
+- **/user/login**: log in a user with an email and password.
+- **/user/send-reset-link**: send a mail to user with a reset password link
+- **/user/reset**: allow user to reset his password
+- **/user/update-profil**: update the user profil information
+
 ### Logging
 
 - `app_access.log`: Logs all access requests.
