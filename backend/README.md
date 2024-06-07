@@ -92,9 +92,10 @@ CleanComm API is an authentication API developed using Python with the FastAPI f
     ```
 
 4. **Configure Database**:
-    - Update the database configuration in `app/resources/db_utils/db_utils.py` to match your PostgreSQL settings:
+    - Copy the `.env.dist` to `.env`
+    - Update the database configuration in `.env` to match your PostgreSQL settings:
 
-        ```python
+        ```env
         DB_USER = 'cleancommdev'
         DB_PASSWORD = 'cleancommdev_pwd'
         DB_HOST = 'localhost'
